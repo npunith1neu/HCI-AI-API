@@ -1,7 +1,8 @@
 import openai
 
 API_KEY = 'YOUR_OPEN_AI_KEY_HERE'
-client = openai.OpenAI(api_key=API_KEY)
+# client = openai.OpenAI(api_key=API_KEY)
+client = openai.Client(api_key=API_KEY) 
 
 def generate_hello_world():
     """
